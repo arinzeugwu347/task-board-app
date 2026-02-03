@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 // Base toast config for consistency
 const toastOptions = {
   duration: 4000,
-  position: 'top-right',
+  position: 'top-center',
   style: {
     padding: '16px 24px',
     borderRadius: '12px',
