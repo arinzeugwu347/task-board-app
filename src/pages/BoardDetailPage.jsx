@@ -470,7 +470,7 @@ export default function BoardDetailPage() {
     return (
         <div className="min-h-screen bg-[hsl(var(--background))] text-[hsl(var(--foreground))] transition-colors">
             {/* Header - sticky & responsive */}
-            <header className="sticky top-0 z-10 bg-[hsl(var(--background))] backdrop-blur-md border-b border-surface-200/50 dark:border-surface-800/50">
+            <header className="md:sticky top-0 z-10 bg-[hsl(var(--background))] backdrop-blur-md border-b border-surface-200/50 dark:border-surface-800/50">
                 <div
                     key="add-new-list-placeholder"
                     className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
